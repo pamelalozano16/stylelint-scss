@@ -24,6 +24,7 @@ const rules = {
   "at-rule-conditional-no-parentheses": require("./at-rule-conditional-no-parentheses"),
   "at-root-no-redundant": require("./at-root-no-redundant"),
   "at-rule-no-unknown": require("./at-rule-no-unknown"),
+  "at-use-no-redundant-alias": require("./at-use-no-redundant-alias"),
   "at-use-no-unnamespaced": require("./at-use-no-unnamespaced"),
   "comment-no-empty": require("./comment-no-empty"),
   "comment-no-loud": require("./comment-no-loud"),
@@ -44,6 +45,7 @@ const rules = {
   "double-slash-comment-inline": require("./double-slash-comment-inline"),
   "double-slash-comment-whitespace-inside": require("./double-slash-comment-whitespace-inside"),
   "function-disallowed-list": require("./function-disallowed-list"),
+  "function-calculation-no-interpolation": require("./function-calculation-no-interpolation"),
   "function-color-relative": require("./function-color-relative"),
   "function-no-unknown": require("./function-no-unknown"),
   "function-quote-no-quoted-strings-inside": require("./function-quote-no-quoted-strings-inside"),
@@ -59,6 +61,7 @@ const rules = {
   "operator-no-unspaced": require("./operator-no-unspaced"),
   "partial-no-import": require("./partial-no-import"),
   "percent-placeholder-pattern": require("./percent-placeholder-pattern"),
+  "property-no-unknown": require("./property-no-unknown"),
   "selector-nest-combinators": require("./selector-nest-combinators"),
   "selector-no-redundant-nesting-selector": require("./selector-no-redundant-nesting-selector"),
   "selector-no-union-class-name": require("./selector-no-union-class-name")

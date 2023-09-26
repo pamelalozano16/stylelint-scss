@@ -1,3 +1,18 @@
+# 5.2.1
+
+- Fixed: add missing `known-css-properties` dependency (#857).
+
+**Full Changelog**: https://github.com/stylelint-scss/stylelint-scss/compare/v5.2.0...v5.2.1
+
+# 5.2.0
+
+- Added: `at-root-no-redundant` rule to ban unnecessary `@at-root` rule (#846).
+- Added: `property-no-unknown` rule to disallow unknown properties. (#847).
+- Added: `at-use-no-redundant-alias` rule to disallow redundant namespace aliases (#848).
+- Added: `function-calculation-no-interpolation` rule to forbid interpolation in calc functions (#849).
+
+**Full Changelog**: https://github.com/stylelint-scss/stylelint-scss/compare/v5.1.0...v5.2.0
+
 # 5.1.0
 
 - Added: `at-root-no-redundant` rule to ban unnecessary `@at-root` rule (#601).
