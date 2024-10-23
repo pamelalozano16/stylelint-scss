@@ -61,8 +61,7 @@ function isIfStatement(value) {
  * @param {unknown} value
  * @returns {value is variable}
  */
-const isDollarVar = value =>
-  (value.length > 0 && value[0] === "$") || value.includes(".$");
+const isDollarVar = value => value.match(/\$[A-Za-z0-9_-]+/g) !== null;
 
 /**
  * Checks if the selector is nested property.
